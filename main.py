@@ -16,7 +16,7 @@ def obfusc(code):
             var = "".join(random.choice(string.ascii_letters) for _ in range(random.randint(5,15)))
             newcode += f"        {var} = 0\n"
         newcode += "\n"
-        for _ in range(random.randint(5, 75)):
+        for _ in range(random.randint(5, 175)):
             fn = "__" + "".join(random.choice(string.ascii_letters) for _ in range(random.randint(8,20)))
             params = ", ".join(
                 "".join(random.choice(string.ascii_letters) for _ in range(random.randint(5,15)))
@@ -33,11 +33,11 @@ def obfusc(code):
         cls_name = "".join(random.choice(string.ascii_letters) for _ in range(random.randint(8, 20)))
         newcode += f"class {cls_name}:\n"
         newcode += "    def __init__(self):\n"
-        for _ in range(random.randint(3, 37)):
+        for _ in range(random.randint(3, 327)):
             var = "".join(random.choice(string.ascii_letters) for _ in range(random.randint(5,15)))
             newcode += f"        {var} = 0\n"
         newcode += "\n"
-        for _ in range(random.randint(5, 14)):
+        for _ in range(random.randint(5, 214)):
             fn = "__" + "".join(random.choice(string.ascii_letters) for _ in range(random.randint(8,20)))
             params = ", ".join(
                 "".join(random.choice(string.ascii_letters) for _ in range(random.randint(5,15)))
