@@ -7,7 +7,7 @@ import base64
 init()
 
 def obfusc(code):
-    newcode = "\n" #EACH VALUE HERE IS SET FOR BEST RESULT. DO NOT MODIFY.
+    newcode = "\n" #EACH VALUE HERE IS SET FOR BEST RESULT. DO NOT MODIFY.  
     for _ in range(random.randint(2, 16)):
         cls_name = "".join(random.choice(string.ascii_letters) for _ in range(random.randint(8, 20)))
         newcode += f"class {cls_name}:\n"
