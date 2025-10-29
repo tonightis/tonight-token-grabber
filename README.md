@@ -5,7 +5,7 @@
 ![Status](https://img.shields.io/badge/status-alpha-red?style=flat-square)
 ![For Educational Use Only](https://img.shields.io/badge/Use-For%20Educational%20Purposes%20Only-orange?style=flat-square)
 
-> ⚠️ **DISCLAIMER**: This tool is intended for **educational** and **research** purposes only. Misuse can be illegal and unethical.
+> ⚠️ **DISCLAIMER**: This tool is intended for **educational** and **research** purposes only. Misuse can be illegal and unethical. 
 
 ---
 
